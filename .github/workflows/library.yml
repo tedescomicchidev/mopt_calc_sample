@@ -29,8 +29,10 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
       working-directory: library
-    - name: Build
-      run: dotnet build --no-restore
+    - name: Build lib
+      run: dotnet build library --no-restore
+    - name: Build lib.test
+      run: dotnet build library.testing --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal library.testing/library.testing.csproj
   
