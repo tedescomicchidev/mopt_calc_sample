@@ -10,7 +10,7 @@
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.2.0",
           "coverlet.collector": "1.0.1",
-          "math-sample": "1.0.0",
+          "math-sample": "1.1.1",
           "xunit": "2.4.0",
           "xunit.runner.visualstudio": "2.4.0"
         },
@@ -1343,7 +1343,7 @@
           "Microsoft.NET.Test.Sdk": "16.2.0"
         }
       },
-      "math-sample/1.0.0": {
+      "math-sample/1.1.1": {
         "runtime": {
           "library.dll": {}
         }
@@ -2049,7 +2049,7 @@
       "path": "xunit.runner.visualstudio/2.4.0",
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
     },
-    "math-sample/1.0.0": {
+    "math-sample/1.1.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

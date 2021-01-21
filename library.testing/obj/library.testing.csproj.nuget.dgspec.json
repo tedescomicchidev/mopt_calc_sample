@@ -83,7 +83,7 @@
       }
     },
     "/mnt/c/Users/mitedesc/code/mopt_example/library/library.csproj": {
-      "version": "1.0.0",
+      "version": "1.1.1",
       "restore": {
         "projectUniqueName": "/mnt/c/Users/mitedesc/code/mopt_example/library/library.csproj",
         "projectName": "math-sample",
@@ -92,13 +92,14 @@
         "outputPath": "/mnt/c/Users/mitedesc/code/mopt_example/library/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "/mnt/c/Users/mitedesc/code/mopt_example/library/nuget.config",
           "/home/mitedescubuntu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://nuget.pkg.github.com/tedescomicchidev/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
