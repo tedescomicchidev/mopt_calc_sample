@@ -56,7 +56,7 @@ jobs:
     - name: Add source
       run: dotnet nuget add source https://nuget.pkg.github.com/tedescomicchidev/index.json -n github -u your_user -p ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text
     - name: Create Package
-      run: dotnet pack --configuration Release -p:Version=$VERSION
+      run: dotnet pack library --configuration Release -p:Version=$VERSION
     - name: Upload
       run: dotnet nuget push library/bin/Release/*.nupkg --skip-duplicate --api-key ${{secrets.GITHUB_TOKEN}} --source "github"
     
