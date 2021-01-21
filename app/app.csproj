@@ -4,8 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <!--<RestoreSources Include="https://nuget.pkg.github.com/tedescomicchidev/index.json" />-->
-    <!--<RestoreSources Include="$(RestoreSources);/mnt/c/Users/mitedesc/code/mopt_example/library/bin/Debug" />-->
-    <!--<RestoreSources>$(RestoreSources);/mnt/c/Users/mitedesc/code/mopt_example/library/bin/Debug;https://api.nuget.org/v3/index.json</RestoreSources>-->
+    <<!--<RestoreSources>$(RestoreSources);/mnt/c/Users/mitedesc/code/mopt_example/library/bin/Debug;https://api.nuget.org/v3/index.json</RestoreSources>-->
   </PropertyGroup>
 
   <ItemGroup>
