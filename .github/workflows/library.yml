@@ -1,0 +1,51 @@
+name: .NET
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+    - 'library/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+    - 'library/**'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.405
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --no-restore
+    - name: Test
+      run: dotnet test --no-build --verbosity normal library.testing/library.testing.csproj
+  
+  packandpublish:
+    
+    runs-on: ubuntu-latest
+    needs: build
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Setup .NET Core 3.0
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.405
+    - name: Determine version
+      run: echo "::set-env name=VERSION::$(git describe --tags --dirty)"
+    - name: Add source
+      run: dotnet nuget add source https://nuget.pkg.github.com/tedescomicchidev/index.json -n github -u your_user -p ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text
+    - name: Create Package
+      run: dotnet pack --configuration Release -p:Version=$VERSION
+    - name: Upload
+      run: dotnet nuget push library/bin/Release/*.nupkg --skip-duplicate --api-key ${{secrets.GITHUB_TOKEN}} --source "github"
+    
