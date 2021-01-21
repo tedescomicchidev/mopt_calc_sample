@@ -1,4 +1,4 @@
-name: .NET
+name: App
 
 on:
   workflow_dispatch:
