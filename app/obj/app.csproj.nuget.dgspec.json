@@ -20,8 +20,8 @@
           "netcoreapp3.0"
         ],
         "sources": {
-          "/mnt/c/Users/mitedesc/code/mopt_example/library/bin/Debug": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "./library.testing/library.testing.csproj": {},
+          "/mnt/c/Users/mitedesc/code/mopt_example/library/library.csproj": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
