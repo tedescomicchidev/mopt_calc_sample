@@ -29,6 +29,9 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
       working-directory: library
+    - name: Restore dependencies testing
+      run: dotnet restore
+      working-directory: library.testing
     - name: Build lib
       run: dotnet build library --no-restore
     - name: Build lib.test
