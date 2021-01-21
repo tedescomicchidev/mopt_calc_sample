@@ -14,14 +14,13 @@
         "outputPath": "/mnt/c/Users/mitedesc/code/mopt_example/library/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/mnt/c/Users/mitedesc/code/mopt_example/library/nuget.config",
           "/home/mitedescubuntu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "https://nuget.pkg.github.com/tedescomicchidev/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {

@@ -7,5 +7,6 @@
     <Version>1.1.1</Version>
     <Authors>mitedesc</Authors>
     <Company>happy coder inc</Company>
+    <repository type="git" url="https://github.com/tedescomicchidev/mopt_calc_sample.git" />
   </PropertyGroup>
 </Project>
