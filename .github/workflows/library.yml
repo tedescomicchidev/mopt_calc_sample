@@ -24,7 +24,7 @@ jobs:
       with:
         dotnet-version: 3.1.405
     - name: Restore dependencies
-      run: dotnet restore -s ./library/library.csproj -s ./library.testing/library.testing.csproj
+      run: dotnet restore -s library/library.csproj -s library.testing/library.testing.csproj
     - name: Build
       run: dotnet build --no-restore
     - name: Test
