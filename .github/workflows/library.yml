@@ -29,8 +29,13 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
       working-directory: library
-    - name: Build
-      run: dotnet build --no-restore
+    - name: Restore dependencies testing
+      run: dotnet restore
+      working-directory: library.testing
+    - name: Build lib
+      run: dotnet build library --no-restore
+    - name: Build lib.test
+      run: dotnet build library.testing --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal library.testing/library.testing.csproj
   
@@ -47,11 +52,11 @@ jobs:
       with:
         dotnet-version: 3.1.405
     - name: Determine version
-      run: echo "::set-env name=VERSION::$(git describe --tags --dirty)"
+      run: echo "VERSION=$(date +'%Y.%m.%d').$GITHUB_RUN_NUMBER" >> $GITHUB_ENV
     - name: Add source
       run: dotnet nuget add source https://nuget.pkg.github.com/tedescomicchidev/index.json -n github -u your_user -p ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text
     - name: Create Package
-      run: dotnet pack --configuration Release -p:Version=$VERSION
+      run: dotnet pack library --configuration Release -p:Version=$VERSION
     - name: Upload
       run: dotnet nuget push library/bin/Release/*.nupkg --skip-duplicate --api-key ${{secrets.GITHUB_TOKEN}} --source "github"
     
