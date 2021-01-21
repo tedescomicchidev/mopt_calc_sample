@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="math-sample" Version="1.1.1" />
+    <PackageReference Include="math-sample" Version="2021.21.28" />
   </ItemGroup>
 
 </Project>
