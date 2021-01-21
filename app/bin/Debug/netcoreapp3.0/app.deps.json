@@ -33,7 +33,7 @@
     "math-sample/1.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1W6m/BWpl0+SFCymdBq3l32Aiy2p29syuEq5Gdl61j8Yhn/reHpT1rNs8HLFJbYHQDMcYT//LzVVPapiSYStxg==",
+      "sha512": "sha512-suw2EX+uJRzAUpRmvGjpvHXR8g+iLfrpEmb9Q9Qslg16YoZlRmIGBCslkjlQR8/S/uiNIS+nrO72SJ2tukkJxQ==",
       "path": "math-sample/1.1.1",
       "hashPath": "math-sample.1.1.1.nupkg.sha512"
     }

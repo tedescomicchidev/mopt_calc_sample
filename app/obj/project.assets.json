@@ -15,7 +15,7 @@
   },
   "libraries": {
     "math-sample/1.1.1": {
-      "sha512": "1W6m/BWpl0+SFCymdBq3l32Aiy2p29syuEq5Gdl61j8Yhn/reHpT1rNs8HLFJbYHQDMcYT//LzVVPapiSYStxg==",
+      "sha512": "suw2EX+uJRzAUpRmvGjpvHXR8g+iLfrpEmb9Q9Qslg16YoZlRmIGBCslkjlQR8/S/uiNIS+nrO72SJ2tukkJxQ==",
       "type": "package",
       "path": "math-sample/1.1.1",
       "files": [
@@ -44,14 +44,15 @@
       "outputPath": "/mnt/c/Users/mitedesc/code/mopt_example/app/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "/mnt/c/Users/mitedesc/code/mopt_example/app/nuget.config",
         "/home/mitedescubuntu/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
-        "./library.testing/library.testing.csproj": {},
-        "/mnt/c/Users/mitedesc/code/mopt_example/library/library.csproj": {}
+        "/mnt/c/Users/mitedesc/code/mopt_example/library/bin/Debug": {},
+        "https://nuget.pkg.github.com/tedescomicchidev/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {

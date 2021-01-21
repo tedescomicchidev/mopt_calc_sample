@@ -14,14 +14,15 @@
         "outputPath": "/mnt/c/Users/mitedesc/code/mopt_example/app/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "/mnt/c/Users/mitedesc/code/mopt_example/app/nuget.config",
           "/home/mitedescubuntu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "./library.testing/library.testing.csproj": {},
-          "/mnt/c/Users/mitedesc/code/mopt_example/library/library.csproj": {}
+          "/mnt/c/Users/mitedesc/code/mopt_example/library/bin/Debug": {},
+          "https://nuget.pkg.github.com/tedescomicchidev/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
