@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "izRlcj2YOQoA8cj7y50hwoxbyfAvgnTd3MUnHiq1m34cbGSmZXFChkWRhwCinEGLI1jjI3KeLN2kCrSVD+cJKw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mitedesc\\code\\mopt_example\\library\\library.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mitedesc\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\mitedesc\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

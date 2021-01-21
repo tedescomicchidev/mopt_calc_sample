@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RestoreSources>$(RestoreSources);/mnt/c/Users/mitedesc/code/mopt_example/library/bin/Debug;https://api.nuget.org/v3/index.json</RestoreSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="math-sample" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>

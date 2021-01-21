@@ -1,0 +1,8 @@
+/mnt/c/Users/mitedesc/code/mopt_example/library/bin/Debug/netstandard2.0/library.deps.json
+/mnt/c/Users/mitedesc/code/mopt_example/library/bin/Debug/netstandard2.0/library.dll
+/mnt/c/Users/mitedesc/code/mopt_example/library/bin/Debug/netstandard2.0/library.pdb
+/mnt/c/Users/mitedesc/code/mopt_example/library/obj/Debug/netstandard2.0/library.csprojAssemblyReference.cache
+/mnt/c/Users/mitedesc/code/mopt_example/library/obj/Debug/netstandard2.0/library.AssemblyInfoInputs.cache
+/mnt/c/Users/mitedesc/code/mopt_example/library/obj/Debug/netstandard2.0/library.AssemblyInfo.cs
+/mnt/c/Users/mitedesc/code/mopt_example/library/obj/Debug/netstandard2.0/library.dll
+/mnt/c/Users/mitedesc/code/mopt_example/library/obj/Debug/netstandard2.0/library.pdb

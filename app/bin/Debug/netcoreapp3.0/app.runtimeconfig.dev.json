@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/mitedescubuntu/.dotnet/store/|arch|/|tfm|",
+      "/home/mitedescubuntu/.nuget/packages"
+    ]
+  }
+}
