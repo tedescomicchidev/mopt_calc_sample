@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="math-sample" Version="2021.21.22" />
+    <RestoreSources>$(RestoreSources);https://nuget.pkg.github.com/tedescomicchidev/index.json</RestoreSources>
   </ItemGroup>
 
 </Project>
