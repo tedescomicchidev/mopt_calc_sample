@@ -16,7 +16,6 @@
 /mnt/c/Users/mitedesc/code/mopt_example/library.testing/bin/Debug/netcoreapp3.0/Microsoft.VisualStudio.TestPlatform.Common.dll
 /mnt/c/Users/mitedesc/code/mopt_example/library.testing/bin/Debug/netcoreapp3.0/testhost.dll
 /mnt/c/Users/mitedesc/code/mopt_example/library.testing/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll
-/mnt/c/Users/mitedesc/code/mopt_example/library.testing/bin/Debug/netcoreapp3.0/System.Xml.XPath.XmlDocument.dll
 /mnt/c/Users/mitedesc/code/mopt_example/library.testing/bin/Debug/netcoreapp3.0/xunit.abstractions.dll
 /mnt/c/Users/mitedesc/code/mopt_example/library.testing/bin/Debug/netcoreapp3.0/xunit.assert.dll
 /mnt/c/Users/mitedesc/code/mopt_example/library.testing/bin/Debug/netcoreapp3.0/xunit.core.dll
@@ -94,3 +93,8 @@
 /mnt/c/Users/mitedesc/code/mopt_example/library.testing/obj/Debug/netcoreapp3.0/library.testing.csproj.CopyComplete
 /mnt/c/Users/mitedesc/code/mopt_example/library.testing/obj/Debug/netcoreapp3.0/library.testing.dll
 /mnt/c/Users/mitedesc/code/mopt_example/library.testing/obj/Debug/netcoreapp3.0/library.testing.pdb
+/mnt/c/Users/mitedesc/code/mopt_example/library.testing/bin/Debug/netcoreapp3.0/DotLiquid.dll
+/mnt/c/Users/mitedesc/code/mopt_example/library.testing/bin/Debug/netcoreapp3.0/LiquidTestReports.Core.dll
+/mnt/c/Users/mitedesc/code/mopt_example/library.testing/bin/Debug/netcoreapp3.0/LiquidTestReports.Markdown.TestLogger.dll
+/mnt/c/Users/mitedesc/code/mopt_example/library.testing/bin/Debug/netcoreapp3.0/NuGet.Frameworks.dll
+/mnt/c/Users/mitedesc/code/mopt_example/library.testing/bin/Debug/netcoreapp3.0/it/DotLiquid.resources.dll
