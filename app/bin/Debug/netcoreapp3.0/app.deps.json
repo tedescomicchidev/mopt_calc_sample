@@ -8,17 +8,17 @@
     ".NETCoreApp,Version=v3.0": {
       "app/1.0.0": {
         "dependencies": {
-          "math-sample": "2021.22.31"
+          "math-sample": "2021.22.32"
         },
         "runtime": {
           "app.dll": {}
         }
       },
-      "math-sample/2021.22.31": {
+      "math-sample/2021.22.32": {
         "runtime": {
           "lib/netcoreapp2.2/library.dll": {
-            "assemblyVersion": "2021.22.31.0",
-            "fileVersion": "2021.22.31.0"
+            "assemblyVersion": "2021.22.32.0",
+            "fileVersion": "2021.22.32.0"
           }
         }
       }
@@ -30,12 +30,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "math-sample/2021.22.31": {
+    "math-sample/2021.22.32": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QaktKo2twExVh3N/fnXlE7Tk/FjsgNv2/6ZGr/pXHwZneA1yvgDc7iOeHj8jy98MHxDSukNSmzQ+PFtFavr2yQ==",
-      "path": "math-sample/2021.22.31",
-      "hashPath": "math-sample.2021.22.31.nupkg.sha512"
+      "sha512": "sha512-ITPKJGoY9zM+GWYCjKv9DaBVVX83NxRz57OVZLlWaMtVwfV7GdRbNM+Z1nGSSZxzD9ZbAIs5ILFSJWJyXSfOsQ==",
+      "path": "math-sample/2021.22.32",
+      "hashPath": "math-sample.2021.22.32.nupkg.sha512"
     }
   }
 }
