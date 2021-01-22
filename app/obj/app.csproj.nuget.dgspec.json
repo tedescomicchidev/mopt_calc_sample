@@ -21,6 +21,7 @@
           "netcoreapp3.0"
         ],
         "sources": {
+          "https://api.nuget.org/v3/index.json": {},
           "https://nuget.pkg.github.com/tedescomicchidev/index.json": {}
         },
         "frameworks": {
