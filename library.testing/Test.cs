@@ -29,5 +29,21 @@ namespace library.testing
             var actual = calc.Multiply(2, 4);
             Assert.Equal(8, actual);
         }
+
+        [Fact]
+        public void TestingDivide()
+        {
+            var calc = new Calc();
+            var actual = calc.Divide(8, 2);
+            Assert.Equal(4, actual);
+        }
+
+        [Fact]
+        public void TestingDivideByZero()
+        {
+            var calc = new Calc();
+            var actual = calc.Divide(2, 0);
+            Assert.Equal(-1, actual);
+        }
     }
 }

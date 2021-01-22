@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
-      "math-sample/1.1.1": {
+      "math-sample/2021.22.31": {
         "type": "package",
         "compile": {
           "lib/netcoreapp2.2/library.dll": {}
@@ -14,21 +14,21 @@
     }
   },
   "libraries": {
-    "math-sample/1.1.1": {
-      "sha512": "suw2EX+uJRzAUpRmvGjpvHXR8g+iLfrpEmb9Q9Qslg16YoZlRmIGBCslkjlQR8/S/uiNIS+nrO72SJ2tukkJxQ==",
+    "math-sample/2021.22.31": {
+      "sha512": "QaktKo2twExVh3N/fnXlE7Tk/FjsgNv2/6ZGr/pXHwZneA1yvgDc7iOeHj8jy98MHxDSukNSmzQ+PFtFavr2yQ==",
       "type": "package",
-      "path": "math-sample/1.1.1",
+      "path": "math-sample/2021.22.31",
       "files": [
         ".nupkg.metadata",
         "lib/netcoreapp2.2/library.dll",
-        "math-sample.1.1.1.nupkg.sha512",
+        "math-sample.2021.22.31.nupkg.sha512",
         "math-sample.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "math-sample >= 1.1.1"
+      "math-sample >= 2021.22.31"
     ]
   },
   "packageFolders": {
@@ -51,7 +51,6 @@
         "netcoreapp3.0"
       ],
       "sources": {
-        "/mnt/c/Users/mitedesc/code/mopt_example/library/bin/Debug": {},
         "https://nuget.pkg.github.com/tedescomicchidev/index.json": {}
       },
       "frameworks": {
@@ -70,7 +69,7 @@
         "dependencies": {
           "math-sample": {
             "target": "Package",
-            "version": "[1.1.1, )"
+            "version": "[2021.22.31, )"
           }
         },
         "imports": [

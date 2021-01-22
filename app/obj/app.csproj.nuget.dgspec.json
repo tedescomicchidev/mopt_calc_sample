@@ -21,7 +21,6 @@
           "netcoreapp3.0"
         ],
         "sources": {
-          "/mnt/c/Users/mitedesc/code/mopt_example/library/bin/Debug": {},
           "https://nuget.pkg.github.com/tedescomicchidev/index.json": {}
         },
         "frameworks": {
@@ -40,7 +39,7 @@
           "dependencies": {
             "math-sample": {
               "target": "Package",
-              "version": "[1.1.1, )"
+              "version": "[2021.22.31, )"
             }
           },
           "imports": [
