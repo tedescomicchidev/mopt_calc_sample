@@ -9,7 +9,7 @@ namespace app
         {
             var calc = new Calc();
                     
-            Console.WriteLine(string.Format("Hello World! {0} / {1}", calc.Add(2, 2), calc.Multiply(2,3)));
+            Console.WriteLine(string.Format("Hello World! {0} / {1} / {2}", calc.Add(2, 2), calc.Multiply(2,3), calc.Divide(9,3)));
         }
     }
 }

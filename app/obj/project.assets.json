@@ -1,34 +1,12 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {
-      "math-sample/2021.22.31": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp2.2/library.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.2/library.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.0": {}
   },
-  "libraries": {
-    "math-sample/2021.22.31": {
-      "sha512": "QaktKo2twExVh3N/fnXlE7Tk/FjsgNv2/6ZGr/pXHwZneA1yvgDc7iOeHj8jy98MHxDSukNSmzQ+PFtFavr2yQ==",
-      "type": "package",
-      "path": "math-sample/2021.22.31",
-      "files": [
-        ".nupkg.metadata",
-        "lib/netcoreapp2.2/library.dll",
-        "math-sample.2021.22.31.nupkg.sha512",
-        "math-sample.nuspec"
-      ]
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "math-sample >= 2021.22.31"
+      "math-sample >= 2021.22.32"
     ]
   },
   "packageFolders": {
@@ -69,7 +47,7 @@
         "dependencies": {
           "math-sample": {
             "target": "Package",
-            "version": "[2021.22.31, )"
+            "version": "[2021.22.32, )"
           }
         },
         "imports": [
@@ -96,5 +74,16 @@
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package math-sample with version (>= 2021.22.32)\n  - Found 7 version(s) in github [ Nearest version: 2021.22.31 ]",
+      "libraryId": "math-sample",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    }
+  ]
 }
