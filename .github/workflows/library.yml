@@ -54,7 +54,7 @@ jobs:
       with:
         dotnet-version: 3.1.405
     - name: Determine Version
-      run: echo "VERSION=$(date +'%Y.$-d').$GITHUB_RUN_NUMBER" >> $GITHUB_ENV
+      run: echo "VERSION=$(date +'%Y.%-d').$GITHUB_RUN_NUMBER" >> $GITHUB_ENV
     - name: Create Package
       run: dotnet pack library --configuration Release -p:Version=$VERSION
     - name: Download a single artifact
