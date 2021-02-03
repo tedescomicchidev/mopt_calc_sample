@@ -7,6 +7,5 @@ version: 2
 updates:
   - package-ecosystem: "nuget" # See documentation for possible values
     directory: "/library" # Location of package manifests
-    target-branch: "vulnSample"
     schedule:
       interval: "weekly"
