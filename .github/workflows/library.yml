@@ -63,4 +63,4 @@ jobs:
         name: code-coverage-report
     - name: Upload
       run: dotnet nuget push library/bin/Release/math-sample.$VERSION.nupkg --skip-duplicate --api-key ${{secrets.GITHUB_TOKEN}} --source https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json
-    
+  
