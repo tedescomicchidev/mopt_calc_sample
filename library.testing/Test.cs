@@ -45,5 +45,13 @@ namespace library.testing
             var actual = calc.Divide(2, 0);
             Assert.Equal(-1, actual);
         }
+
+        [Fact]
+        public void TestingSquare()
+        {
+            var calc = new Calc();
+            var actual = calc.Square(9);
+            Assert.Equal(81, actual);
+        }
     }
 }

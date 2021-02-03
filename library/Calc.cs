@@ -29,5 +29,10 @@ namespace library
             }
             return(-1);
         }
+
+        public int Square(int a) 
+        {
+            return a * a;
+        }
     }
 }
