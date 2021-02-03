@@ -53,12 +53,8 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.405
-    - name: Determine Day-part of Version
-      run: echo "DAYSTRING=$(date +'%d')" >> $GITHUB_ENV
-    - name: Determine version
-      run: echo "VERSION=$(date +'%Y').${DAYSTRING:${#DAYSTRING}-2:2}.$GITHUB_RUN_NUMBER" >> $GITHUB_ENV
-    - name: debug version
-      run: echo $VERSION
+    - name: Determine Version
+      run: echo "VERSION=$(date +'%Y.$-d').$GITHUB_RUN_NUMBER" >> $GITHUB_ENV
     - name: Create Package
       run: dotnet pack library --configuration Release -p:Version=$VERSION
     - name: Download a single artifact
