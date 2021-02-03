@@ -37,4 +37,4 @@ msbuild.wrn
 .vs/
 
 #MOPT 
-nuget.config
+app/nuget.config
