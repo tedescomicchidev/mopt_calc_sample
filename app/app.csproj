@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="math-sample" Version="2021.22.34" />
+    <PackageReference Include="math-sample" Version="2021.22.46" />
   </ItemGroup>
 
 </Project>
