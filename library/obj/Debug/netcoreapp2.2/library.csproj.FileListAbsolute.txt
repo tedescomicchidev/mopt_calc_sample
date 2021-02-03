@@ -1,8 +1,0 @@
-/mnt/c/Users/mitedesc/code/mopt_example/library/bin/Debug/netcoreapp2.2/library.deps.json
-/mnt/c/Users/mitedesc/code/mopt_example/library/bin/Debug/netcoreapp2.2/library.dll
-/mnt/c/Users/mitedesc/code/mopt_example/library/bin/Debug/netcoreapp2.2/library.pdb
-/mnt/c/Users/mitedesc/code/mopt_example/library/obj/Debug/netcoreapp2.2/library.csprojAssemblyReference.cache
-/mnt/c/Users/mitedesc/code/mopt_example/library/obj/Debug/netcoreapp2.2/library.AssemblyInfoInputs.cache
-/mnt/c/Users/mitedesc/code/mopt_example/library/obj/Debug/netcoreapp2.2/library.AssemblyInfo.cs
-/mnt/c/Users/mitedesc/code/mopt_example/library/obj/Debug/netcoreapp2.2/library.dll
-/mnt/c/Users/mitedesc/code/mopt_example/library/obj/Debug/netcoreapp2.2/library.pdb

@@ -3,11 +3,12 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <!--<RestoreSources Include="https://nuget.pkg.github.com/tedescomicchidev/index.json" />-->
+    <!--<RestoreSources>$(RestoreSources);/mnt/c/Users/mitedesc/code/mopt_example/library/bin/Debug;https://api.nuget.org/v3/index.json</RestoreSources>-->
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="math-sample" Version="2021.21.22" />
-    <RestoreSources Include="https://nuget.pkg.github.com/tedescomicchidev/index.json" />
+    <PackageReference Include="math-sample" Version="2021.22.34" />
   </ItemGroup>
 
 </Project>
