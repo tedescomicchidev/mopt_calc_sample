@@ -53,5 +53,29 @@ namespace library.testing
             var actual = calc.Square(9);
             Assert.Equal(81, actual);
         }
+
+        [Fact]
+        public void TestingExponent()
+        {
+            var calc = new Calc();
+            var actual = calc.Exponent(3, 9);
+            Assert.Equal(19683, actual);
+        }
+
+        [Fact]
+        public void TestingExponentZero()
+        {
+            var calc = new Calc();
+            var actual = calc.Exponent(3, 0);
+            Assert.Equal(1, actual);
+        }
+
+        [Fact]
+        public void TestingExponentBelowZero()
+        {
+            var calc = new Calc();
+            var actual = calc.Exponent(3, -2);
+            Assert.Equal(-1, actual);
+        }
     }
 }

@@ -34,5 +34,23 @@ namespace library
         {
             return a * a;
         }
+
+        public int Exponent(int lower, int power)
+        {
+            // Special cases  
+            if (power == 0 || lower == 1)
+                return 1;
+            else if (lower == 0)
+                return 0;
+            else if (power < 0) //throw new ArgumentOutOfRangeException(nameof(power));  
+                return (-1);
+
+            // General case: math 
+            int result = lower;
+            for (int i = 1; i < power; ++i)      
+                result *= lower; 
+
+            return result;  
+        }
     }
 }
