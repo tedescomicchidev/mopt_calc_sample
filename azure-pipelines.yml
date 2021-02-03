@@ -15,7 +15,7 @@ stages:
   jobs:
   - job: Build
     pool:
-      name: Default
+      name: ubuntu-latest
     steps:
     - script: echo Hello, world!
       displayName: 'Run a one-line script'
@@ -32,7 +32,7 @@ stages:
   - deployment:
     displayName: Release
     pool:
-      name: Default
+      name: ubuntu-latest
     environment: demo-empty
     strategy:
       runOnce:
