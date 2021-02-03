@@ -54,7 +54,7 @@ jobs:
       with:
         dotnet-version: 3.1.405
     - name: Determine Day-part of Version
-      run: DAYSTRING=$(date +'%d')
+      run: echo "DAYSTRING=$(date +'%d')" >> $GITHUB_ENV
     - name: Determine version
       run: echo "VERSION=$(date +'%Y').${DAYSTRING:${#DAYSTRING}-2:2}.$GITHUB_RUN_NUMBER" >> $GITHUB_ENV
     - name: debug version
