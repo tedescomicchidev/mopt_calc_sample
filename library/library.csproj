@@ -10,4 +10,7 @@
     <RepositoryUrl>https://github.com/tedescomicchidev/mopt_calc_sample</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="4.14.0" />
+  </ItemGroup>
 </Project>
